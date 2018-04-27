@@ -1,26 +1,14 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <router-link class="navbar-brand" to="customers">Store App</router-link>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <router-link class="navbar-brand" to="costumers">Store App</router-link>
     <div class="navbar-nav">
-      
-      <router-link class="nav-item nav-link" to="customers">Customers</router-link>
+      <router-link class="nav-item nav-link" to="customers">Costumers</router-link>
       <router-link class="nav-item nav-link" to="products">Products</router-link>
-      
     </div>
-  </div>
-</nav>
-
+  </nav>
 </template>
 
 <script>
-
 export default {
-  
-
 }
-
 </script>
